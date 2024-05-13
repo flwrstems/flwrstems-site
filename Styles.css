@@ -1,5 +1,7 @@
-
-
+.button{
+    color: rgb(19, 18, 18);
+}
+.button1 {background-color: #aa0486;} /* Green */
 /* FONTS */
 
 @font-face {
@@ -215,9 +217,7 @@ ul {
     border-radius: 50%;
     border: 8px double #f7adff;
     box-shadow: 1px 5px 5px #7386FF;
-    background-size: contain;
-  
-    
+    background-size: contain;  
 }
 .header #Banner{
     display: block;
