@@ -1,12 +1,27 @@
 body {
     background-color: rgb(0, 94, 106);
-  }
-  h1 {
-    color: rgb(255, 255, 255);
     text-align:center;
-  }
-  p {
+    
+}
+h1 {
     color: rgb(255, 255, 255);
-    border: 2px solid powderblue;
-  }
+}
+p {
+    color: rgb(255, 255, 255);
+}
+
+.ImageBorder
+{
+    padding:1px;border:thin solid black;
+}
+
+hr.dashed {
+    border-top: 3px dashed #bbb;
+}
+
+.centered-links a{
+    text-align: center; /* Center the text */
+    color:lightblue;
+    margin-top: 10px; /* Optional: Add some space above the links */
+}  
 
