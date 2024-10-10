@@ -1,0 +1,20 @@
+
+
+html {
+    -webkit-font-smoothing: never;
+}
+
+body {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffc6ff;
+    font-family: 'MS Gothic', 'MS UI Gothic', 'sans-serif';    
+  }
+
+
+
+/* Dotted border */
+hr.dotted {
+    border-top: 3px dotted #bbb;
+  }
