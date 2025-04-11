@@ -18,3 +18,22 @@ body {
 hr.dotted {
     border-top: 3px dotted #bbb;
   }
+
+.button {
+  width: 88px;
+  height: 31px;
+  /* height: auto; */
+  image-rendering: pixelated; /* most important part!!!!!!! */
+}
+
+.fit-picture{
+  display: block;
+  width: 95%;
+  margin: 1em;
+}
+
+.fit-video{
+  display: block;
+  width: 95%;
+  margin: 1em;
+}
