@@ -17,8 +17,11 @@
         .content {
             width: 30rem; /* Set the width */
             text-align: center; /* Center the text */
-            margin: 0 auto; /* Center the div horizontally */
+            margin: 0 auto; /* Center th  e div horizontally */
             padding: 20px;
+            
+            max-width: 90ch; /* Ensure it doesn't overflow on smaller screens */
+            width: fit-content;        
         }
 
         /* Responsive Images */
@@ -27,10 +30,13 @@
             height: auto;
         }
     </style>
-</head>
-  
+  </head>
+<body>
     <!-- Menu Bar -->
-    <ul role="menu-bar">
+    <ul role="menu-bar" style = "flex-wrap: wrap;">
+            <li role="menu-item" tabindex="0" aria-haspopup="false">
+              <img src="Screenshot 2025-07-10 at 6.34.56 PM.png" alt="flwrstems logo" style="height:1em; width:auto; vertical-align:auto;">
+            </li>
             <li role="menu-item" tabindex="0" aria-haspopup="false"><a target="_blank" href="https://gooptech.nya.pub">gooptech !!</a></li>
             <li role="menu-item" tabindex="0" aria-haspopup="false"><a href="https://bsky.app/profile/flwrstems.bsky.social">Bluesky</a></li>
             <li role="menu-item" tabindex="0" aria-haspopup="false"><a href="https://mastodon.social/@flwrstems">Fediverse</a></li>
@@ -42,6 +48,8 @@
             <li role="menu-item" tabindex="0" aria-haspopup="false"><a href="https://account.venmo.com/u/skooked">Venmo</a></li>
             <li role="menu-item" tabindex="0" aria-haspopup="false"><a href="https://ko-fi.com/flwrstems">Kofi</a></li>
       </ul>
+      
+
     <div class="content">
       <div class="standard-dialog center scale-down" style="text-align:center;">
         <h2> <a href="index.html"> flwrstems </a></h2>
@@ -51,25 +59,33 @@
         </p>
       </div>
     </div>
-    
-    <hr class="dotted">
 
-    
+    <div class="window">
+      <div class="title-bar">
+        <button aria-label="Close" class="close"></button>
+        <h1 class="title">Content</h1>
+        <button aria-label="Resize" class="resize"></button>
+      </div>
+      <div class="separator"></div>
+      <div class="window-pane">
        <div style="text-align: center;">
-      <p><a href="projects/applications.html"></a></p>
-      <p><a href="https://yawnbox.is/blog/wireguard-dns-ad-blocking/">I followed this tutorial to implement a Wireguard VPN and ad blocker for my devices</a></p>
-      <p><a href="blog/blog-4-24-2025.html">I'm building things on the internet to make it a better place</a></p>
-      <p><a href="https://fedihosting.foundation/lw-team/">I volunteer my time as a DevOps Engineer with fedihosting.foundation</a></p>
-      <p><a href="projects/hacking.html">projects/hacking.html</a></p>
-      <p><a href="projects/visuals.html">projects/visuals.html</a></p>
-      <p><a href="projects/sounds.html">projects/sounds.html</a></p>
-        <p> check out my friend dawn's site!</p>
-      <a href = "https://dawnvoid.neocities.org">
+        <p><a href="projects/applications.html"></a></p>
+        <p><a href="https://yawnbox.is/blog/wireguard-dns-ad-blocking/">I followed this tutorial to implement a Wireguard VPN and ad blocker for my devices</a></p>
+        <p><a href="blog/blog-4-24-2025.html">I'm building things on the internet to make it a better place</a></p>
+        <p><a href="https://fedihosting.foundation/lw-team/">I volunteer my time as a DevOps Engineer with fedihosting.foundation</a></p>
+        <p><a href="projects/hacking.html">projects/hacking.html</a></p>
+        <p><a href="projects/visuals.html">projects/visuals.html</a></p>
+        <p><a href="projects/sounds.html">projects/sounds.html</a></p>
+       </div>
+      </div>
+    </div>
+      
+      
+    <div style ="text-align: center;">
+            
+    <a href = "https://dawnvoid.neocities.org">
         <img src = "https://dawnvoid.neocities.org/buttons/dawnvoid_fog.png" alt = "she's pretty cool :)">
       </a>
-    <div style ="text-align: center;">
-    <p></p>
-    </div>
       <img src = "media/flag.png" alt = "queer" title = "very queer, yes">
       <img src="media/beyes.gif" alt="beyes" height="31" width="88">
       <img src="media/blink-0.gif" alt="blink-0" height="31" width="100">
@@ -84,6 +100,5 @@
         <img src="media/indieweb88x31-flat.png" alt="These folks have cool ideas" title="IndieWeb">
       </a>
     </div>
-
 </body>
 </html>

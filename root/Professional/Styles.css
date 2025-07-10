@@ -305,18 +305,21 @@ h2 {
 }
 
 .window {
+  width: 80vw;           /* 80% of the viewport width */
+  max-width: 1000px;     /* Optional: limit max width for large screens */
+  margin: 2rem auto;
+  padding: 20px;
   background-color: #fff;
   border: 0.1em solid #000;
   flex-direction: column;
   font-family: Inconsolata, Menlo, Chicago, Geneva;
-  margin: 1rem;
-  min-width: 320px;
   overflow: hidden;
   display: flex;
 }
 
 .window-pane {
-  font-size: 18px;
+  font-family: 'FindersKeepers', sans-serif;
+  font-size: 1rem;
   height: 100%;
   letter-spacing: -0.025em;
   overflow-y: scroll;
@@ -617,8 +620,11 @@ ul[role] {
 }
 
 ul[role=menu-bar] {
+  font-family: FindersKeepers;
+  font-size: 1.5em;
   background: #fff;
   display: flex;
+  border-bottom: #000 solid 1px;
 }
 
 ul[role=menu-bar] > [role=menu-item] {
@@ -632,6 +638,13 @@ ul[role=menu-bar] > [role=menu-item]:hover {
   background: #000;
   color: #fff;
   outline: none;
+}
+
+ul[role=menu-bar] > [role=menu-item] > img {
+    height: 1em;
+    
+    vertical-align:auto;
+    /* Optional: adjust vertical alignment if needed */
 }
 
 ul[role=menu-bar] > [role=menu-item][aria-haspopup=false] * {
