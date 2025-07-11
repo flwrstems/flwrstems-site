@@ -306,7 +306,8 @@ h2 {
 
 .window {
   width: rem;           /* 80% of the viewport width */
-  max-width: 1000px;     /* Optional: limit max width for large screens */
+  max-width: 1000px; 
+  vertical-align:middle;    /* Optional: limit max width for large screens */
   margin: 2rem auto;
   margin-left: 2rem;
   margin-right: 2rem;
