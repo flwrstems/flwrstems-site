@@ -380,7 +380,7 @@ h2 {
   border-width: 5.5px;
   color: #000;
   cursor: pointer;
-  font-family: Chicago_12;
+  font-family: Geneva_9;
   font-size: 18px;
   min-height: 20px;
   min-width: 59px;
@@ -393,7 +393,7 @@ h2 {
   background: #000;
   border-radius: 6px;
   color: #fff;
-  font-family: Chicago_12;
+  font-family: Geneva_9;
 }
 
 .btn:disabled {
@@ -402,7 +402,7 @@ h2 {
   border-style: solid;
   border-width: 5.5px;
   color: #b6b7b8;
-  font-family: Chicago_12;
+  font-family: Geneva_9;
   font-size: 18px;
   min-height: 20px;
   min-width: 59px;
