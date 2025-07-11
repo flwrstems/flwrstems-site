@@ -305,9 +305,11 @@ h2 {
 }
 
 .window {
-  width: 80vw;           /* 80% of the viewport width */
+  width: rem;           /* 80% of the viewport width */
   max-width: 1000px;     /* Optional: limit max width for large screens */
   margin: 2rem auto;
+  margin-left: 2rem;
+  margin-right: 2rem;
   padding: 20px;
   background-color: #fff;
   border: 0.1em solid #000;
