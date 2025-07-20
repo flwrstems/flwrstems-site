@@ -309,10 +309,8 @@ h2 {
   width: rem;           /* 80% of the viewport width */
   max-width: 1000px; 
   vertical-align:middle;    /* Optional: limit max width for large screens */
-  margin: 2rem auto;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  padding: 20px;
+  margin: auto;
+  padding: 3vw;
   background-color: #fff;
   border: 0.1em solid #000;
   flex-direction: column;
