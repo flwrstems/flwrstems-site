@@ -116,7 +116,7 @@ a {
 
 p {
   color: #000;
-  font-size: 2em;
+  font-size: 1.7em;
 }
 
 strong {
@@ -126,23 +126,23 @@ strong {
 
 hr {
   border-top: 0.15em solid #000;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .heading,
 h1 {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .heading,
 h1,
 h2 {
   font-family: FindersKeepers;
-  font-size: 2em;
+  font-size: 1.6em;
 }
 
 h2 {
-  font-size: 4em;
+  font-size: 1.7em;
 }
 
 .standard-button {
@@ -152,6 +152,7 @@ h2 {
 }
 
 .standard-dialog {
+  alignment-baseline: central;
   background-color: #fff;
   border: 2px solid;
   box-shadow: 2px 2px;
