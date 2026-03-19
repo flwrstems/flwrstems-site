@@ -1,25 +1,25 @@
 /*! system.css v0.1.11 - https://github.com/sakofchit/system.css */
 
 @font-face {
-  font-family: Chicago;
+  font-family: Georgia;
   src: url(ChicagoFLF.woff) format("woff");
   src: url(ChicagoFLF.woff2) format("woff2");
 }
 
 @font-face {
-  font-family: Monaco;
+  font-family: Georgia;
   src: url(monaco.woff) format("woff");
   src: url(monaco.woff2) format("woff2");
 }
 
 @font-face {
-  font-family: Chicago_12;
+  font-family: Georgia;
   src: url(ChiKareGo2.woff) format("woff");
   src: url(ChiKareGo2.woff2) format("woff2");
 }
 
 @font-face {
-  font-family: Geneva_9;
+  font-family: Georgia;
   src: url(FindersKeepers.woff) format("woff");
   src: url(FindersKeepers.woff2) format("woff2");
 }
