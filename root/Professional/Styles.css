@@ -2,24 +2,6 @@
 
 @font-face {
   font-family: Georgia;
-  src: url(ChicagoFLF.woff) format("woff");
-  src: url(ChicagoFLF.woff2) format("woff2");
-}
-
-@font-face {
-  font-family: Georgia;
-  src: url(monaco.woff) format("woff");
-  src: url(monaco.woff2) format("woff2");
-}
-
-@font-face {
-  font-family: Georgia;
-  src: url(ChiKareGo2.woff) format("woff");
-  src: url(ChiKareGo2.woff2) format("woff2");
-}
-
-@font-face {
-  font-family: Georgia;
   src: url(FindersKeepers.woff) format("woff");
   src: url(FindersKeepers.woff2) format("woff2");
 }
@@ -137,7 +119,7 @@ h1 {
 .heading,
 h1,
 h2 {
-  font-family: FindersKeepers;
+  font-family: Georgia;
   font-size: 1.6em;
 }
 
@@ -204,8 +186,8 @@ h2 {
 .title-bar .title {
   background: #fff;
   cursor: default;
-  font-family: Chicago_12;
-  font-size: 1.5rem;
+  font-family: Georgia;
+  font-size: 1.7rem;
   font-weight: 700;
   line-height: 1.1;
   margin: 0 auto;
@@ -227,7 +209,7 @@ h2 {
 .inactive-title-bar .title {
   color: #a5a5a5;
   cursor: default;
-  font-family: Chicago_12;
+  font-family: Georgia;
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 1.1;
@@ -314,13 +296,13 @@ h2 {
   background-color: #fff;
   border: 0.1em solid #000;
   flex-direction: column;
-  font-family: Inconsolata, Menlo, Chicago, Geneva;
+  font-family: Georgia
   overflow: hidden;
   display: flex;
 }
 
 .window-pane {
-  font-family: 'FindersKeepers', sans-serif;
+  font-family: 'Georgia';
   font-size: 1rem;
   height: 100%;
   letter-spacing: -0.025em;
@@ -380,7 +362,7 @@ h2 {
   border-width: 5.5px;
   color: #000;
   cursor: pointer;
-  font-family: Geneva_9;
+  font-family: Georgia;
   font-size: 18px;
   min-height: 20px;
   min-width: 59px;
@@ -393,7 +375,7 @@ h2 {
   background: #000;
   border-radius: 6px;
   color: #fff;
-  font-family: Geneva_9;
+  font-family: Georgia;
 }
 
 .btn:disabled {
@@ -402,7 +384,7 @@ h2 {
   border-style: solid;
   border-width: 5.5px;
   color: #b6b7b8;
-  font-family: Geneva_9;
+  font-family: Georgia;
   font-size: 18px;
   min-height: 20px;
   min-width: 59px;
@@ -421,7 +403,7 @@ h2 {
 
 input {
   border: 1.5px solid #000;
-  font-family: Chicago_12;
+  font-family: Georgia;
   font-size: 18px;
   padding-left: 5px;
 }
@@ -563,7 +545,7 @@ input[type=checkbox][disabled]:checked + label:after {
 .field-row {
   align-items: center;
   display: flex;
-  font-family: Chicago_12;
+  font-family: Georgia;
   font-size: 1em;
 }
 
@@ -586,7 +568,7 @@ input[type=checkbox][disabled]:checked + label:after {
 }
 
 form {
-  font-family: Inconsolata, Menlo, Chicago, Geneva;
+  font-family: Georgia;
   font-size: 14px;
 }
 
@@ -610,7 +592,7 @@ select {
 
 select,
 ul[role] {
-  font-family: Chicago_12;
+  font-family: Georgia;
 }
 
 ul[role] {
@@ -622,8 +604,8 @@ ul[role] {
 }
 
 ul[role=menu-bar] {
-  font-family: FindersKeepers;
-  font-size: 1.5em;
+  font-family: Georgia;
+  font-size: 1.9em;
   background: #fff;
   display: flex;
   border-bottom: #000 solid 1px;
